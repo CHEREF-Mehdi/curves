@@ -8,16 +8,12 @@ lIBOPENGL= -lGL -lGLU -lGLEW -lglut -lm
 #armadilo
 LIBARMADILO= -DARMA_DONT_USE_WRAPPER -lopenblas -llapack
 
-EXEC= courbes
-SRC= courbes.cpp 
+EXEC= curve
+SRC= curve.cpp
 
 
 $(EXEC): $(SRC)
-	$(CC) -g -Wall -std=c++11 -o $(EXEC) $(SRC) $(lIBOPENGL) $(LIBARMADILO)
-
-all: 
-	clean 
-	$(EXEC)
+	$(CC) $(GFLAGS) -o $(EXEC) $(SRC) $(lIBOPENGL) $(LIBARMADILO)
 
 clean:
 	rm -rf *.o
