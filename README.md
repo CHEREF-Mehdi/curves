@@ -2,7 +2,7 @@
 Bezier, Catmull Rom, Uniform B-Spline and Non-Uniform curves
 
 # main menu
-![alt text](ReadMe%20imgs/Bezier.png)
+![alt text](ReadMe%20imgs/mainMenu.png)
 
 # Bezier curve :
 ![alt text](ReadMe%20imgs/Bezier.png)
