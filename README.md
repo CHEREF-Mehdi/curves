@@ -1,5 +1,14 @@
 # curves
-Bezier, Catmull Rom, B-Spline uniform and non-uniform curves
+Bezier, Catmull Rom, Uniform B-Spline and Non-Uniform curves
 
-
+# Bezier curve :
 ![alt text](ReadMe%20imgs/Bezier.png)
+
+# Catmull Rom curve :
+![alt text](ReadMe%20imgs/catmull%20Rom.png)
+
+# Uniform B-Spline curve :
+![alt text](ReadMe%20imgs/B-Spline%20Uniform.png)
+
+# Non-Uniform B-Spline curve :
+![alt text](ReadMe%20imgs/B-Spline%20Non-Uniform.png)
